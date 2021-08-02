@@ -1,0 +1,20 @@
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server -> Browser: text/html 
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server -> Browser: text/css
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server -> Browser: application/javascript
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server -> Browser: application/json
+
+Browser -> Server: HTTPS POST https://webshield.totalav.com/e3/domain-age
+Server -> Browser: application/json
+
+Browser -> Server: HTTPS OPTIONS https://webshield.totalav.com/e3/domain-age
+Server -> Browser: application/json
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/favicon.ico
+Server -> Browser: text/html
