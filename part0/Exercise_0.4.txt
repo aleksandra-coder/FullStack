@@ -1,0 +1,22 @@
+title Exercise 0.4
+
+
+
+Browser -> Server: HTTPS POST https://studies.cs.helsinki.fi/exampleapp/new_note 
+Server -> Browser: text/html 
+
+note over Browser:
+This is my first exercise in the course
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/notes
+Server -> Browser: text/html
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server -> Browser: text/css
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/main.js
+Server -> Browser: application/javascript
+
+Browser -> Server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server -> Browser: application/json
+
