@@ -1,0 +1,42 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRhdGEiLCJpZCI6IjYxNjg0ZjBiYjRjNjIzM2U5ODhiZDVlMSIsImlhdCI6MTYzNDIzMjg2NCwiZXhwIjoxNjM0MjM2NDY0fQ.mykaWkWowK1IJf0TlSBj8FMJDYvtz9mpSmDE-uPaco0
+
+{
+  "title": "My life",
+  "author": "Ola",
+  "url": "www.lifeisgood.com",
+  "likes": 100,
+  "userId": "61684f0bb4c6233e988bd5e1"
+  
+}
+
+###
+
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+  "username": "Tata",
+  "name": "Adam",
+  "password": "cxza" 
+}
+
+###
+POST http://localhost:3003/api/login
+content-type: application/json
+
+
+{
+  "username": "Tata",
+  "password": "cxza"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/616712f30261f328808e2383
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hbWEiLCJpZCI6IjYxNjcxMmE0MDI2MWYzMjg4MDhlMjM3ZCIsImlhdCI6MTYzNDE0NDk2OCwiZXhwIjoxNjM0MTQ4NTY4fQ.sjEKSBDlPlkgGX1uFG0oVZRnqkpwpBrxPZlUNdkiHI4
+
+
+###
+GET http://localhost:3003/api/blogs
