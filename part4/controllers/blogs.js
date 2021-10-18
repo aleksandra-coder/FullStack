@@ -12,7 +12,7 @@ const jwt = require('jsonwebtoken')
   // const blogs = await Blog.find({})
   // ex 4.17
   const blogs = await Blog
-    .find({}).populate('user', { username: 1, name: 1 })
+    .find({}).populate('users', { username: 1, name: 1 })
   response.json(blogs)
 })
 
