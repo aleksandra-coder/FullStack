@@ -1,0 +1,36 @@
+h2 {
+  color: green;
+  font-style: italic;
+}
+
+.name {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#delete {
+  background: rgb(62, 62, 224);
+  color: white;
+  border-radius: 5px;
+}
