@@ -21,7 +21,7 @@ const Weather = ({ cityWeather }) => {
    
     const [getCapital, setGetCapital] = useState(false);
 
-// '976a38a9f9737ae56fcbb90ceae9fcb4'
+
    const api_key = process.env.REACT_APP_API_KEY    
    const api_base = "https://api.openweathermap.org/data/2.5"
 
